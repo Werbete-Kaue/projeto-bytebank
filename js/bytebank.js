@@ -11,4 +11,8 @@ elementoFormulario.addEventListener("submit", function(event) {
         alert("Por favor, preencha todos os campos da transação!")
         return
     }
+
+    const inputTipoTransacao = elementoFormulario.querySelector("#tipoTransacao");
+    const inputValor = elementoFormulario.querySelector("#valor")
+    const inputData = elementoFormulario.querySelector("#data")
 })
