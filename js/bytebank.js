@@ -35,5 +35,7 @@ elementoFormulario.addEventListener("submit", function(event) {
         return
     }
 
+    elementoSaldo.textContent = saldo
+
     elementoFormulario.reset();
 })
